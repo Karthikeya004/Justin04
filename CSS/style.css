@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap");
+* {
+    font-family: "Ysabeau SC", sans-serif;
+    /* color: whitesmoke; */
+  }
+.bannerbgimage{
+    height: 100vh;
+    background: url("../IMG/bg.jpeg");
+    background-size: 100%;
+    position: relative;
+}
+
+.bannertext{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+}
+.card{
+    cursor: pointer;
+    background-color: rgba(87, 86, 86, 0.812);
+    color: #fff;
+}
+.card:hover{
+    color: aliceblue;
+    background-color: black;
+    /* border: 5px solid rgb(68, 53, 181); */
+    box-shadow: 5px 5px 10px forestgreen;
+}
+.bicon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid cornsilk;
+    box-shadow: 5px 5px 10px forestgreen;
+    
+}
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+.card a{
+    text-decoration-line: none;
+}
+.row a{
+    text-decoration-line: none;
+}
+.row a:link{
+    color: blue;
+}
+.row a:visited{
+    color: blue;
+}
+.row a:hover{
+    color: hotpink;
+}
+.row a:active{
+    color: aqua;
+}
+.card a:link{
+    color: blue;
+}
+.card a:visited{
+    color: blue;
+}
+.card a:hover{
+    color: hotpink;
+}
+.card a:active{
+    color: aqua;
+}
